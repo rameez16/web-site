@@ -54,19 +54,44 @@
   }
 
 
-  .gallary {
 
-    margin: 5px;
+  /* Clear floats after image containers */
+ 
 
-    border: 1px solid #ccc;
+.head{
+    text-align: center;
+    align-items: center;
+    padding:50px;
+
+}
+
+
+
+
+.cl p{
+
 
     float: left;
+    clear: both;
+}
+  
+.cl{
+    float: left;
+}
 
-  width: 180px;
+.gallary{
+    
+        float:left;
+        display:flex;
+}
 
-  }
-  .gallery img{
-  width: 100%;
 
-  height: auto;
-  }
+
+.next img{
+
+ align-items:center;
+ float: right;
+ width: 500px;;
+ height: 700px;;
+  
+}

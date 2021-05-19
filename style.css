@@ -52,3 +52,21 @@
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
   }
+
+
+  .gallary {
+
+    margin: 5px;
+
+    border: 1px solid #ccc;
+
+    float: left;
+
+  width: 180px;
+
+  }
+  .gallery img{
+  width: 100%;
+
+  height: auto;
+  }
